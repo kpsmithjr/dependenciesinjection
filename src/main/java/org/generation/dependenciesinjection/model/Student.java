@@ -71,4 +71,17 @@ public class Student
     {
         return birthDate;
     }
+
+    @Override
+    public String toString(){
+        return "Student{" +
+                "idStudent=" + idStudent +
+                ", idType=" + idType +
+                ", name=" + name +
+                ", lastName=" + lastName + 
+                ", nationality=" + nationality +
+                ", address=" + address +
+                ", birthDate=" + birthDate +
+                '}';
+    }
 }
